@@ -38,11 +38,9 @@
       "exclude": [
         "apps/user-e2e/**/*",
         "apps/blog-e2e/**/*",
-        "apps/blog-e2e/**/*",
-        "apps/comment-e2e/**/*",
-        "apps/subscribe-list-e2e/**/*",
         "apps/notify-e2e/**/*",
-        "apps/api-e2e/**/*"
+        "apps/api-e2e/**/*",
+        "apps/file-store-e2e/**/*"
       ]
     }
   ]
