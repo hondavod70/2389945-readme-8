@@ -1,7 +1,7 @@
 {
-  "name": "comment",
+  "name": "file-store",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/comment/src",
+  "sourceRoot": "apps/file-store/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -10,15 +10,15 @@
       "defaultConfiguration": "development",
       "dependsOn": ["build"],
       "options": {
-        "buildTarget": "comment:build",
+        "buildTarget": "file-store:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "comment:build:development"
+          "buildTarget": "file-store:build:development"
         },
         "production": {
-          "buildTarget": "comment:build:production"
+          "buildTarget": "file-store:build:production"
         }
       }
     }
