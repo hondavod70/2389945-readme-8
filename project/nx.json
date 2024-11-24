@@ -40,7 +40,7 @@
         "apps/blog-e2e/**/*",
         "apps/notify-e2e/**/*",
         "apps/api-e2e/**/*",
-        "apps/file-store-e2e/**/*"
+        "apps/file-control-e2e/**/*"
       ]
     }
   ]

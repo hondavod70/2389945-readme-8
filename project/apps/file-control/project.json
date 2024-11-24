@@ -1,7 +1,7 @@
 {
-  "name": "file-store",
+  "name": "file-control",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/file-store/src",
+  "sourceRoot": "apps/file-control/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -10,15 +10,15 @@
       "defaultConfiguration": "development",
       "dependsOn": ["build"],
       "options": {
-        "buildTarget": "file-store:build",
+        "buildTarget": "file-control:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "file-store:build:development"
+          "buildTarget": "file-control:build:development"
         },
         "production": {
-          "buildTarget": "file-store:build:production"
+          "buildTarget": "file-control:build:production"
         }
       }
     }
